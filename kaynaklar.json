@@ -1,0 +1,16 @@
+{
+  "_aciklama": "Kaynak eklemek için bir satır kopyalayın: ad, rss adresi, dil (tr/en). 'filtre' doluysa yalnız bu kelimelerden birini başlığında ya da özetinde geçiren haberler alınır (genel teknoloji siteleri için). Bir kaynağı geçici kapatmak için \"aktif\": false yazın.",
+  "kaynak_basina_en_fazla": 12,
+  "toplam_en_fazla": 120,
+  "kaynaklar": [
+    { "ad": "Anthropic", "rss": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml", "dil": "en", "not": "Anthropic resmî RSS vermiyor; bu adres topluluğun ürettiği açık bir akış (github.com/Olshansk/rss-feeds)." },
+    { "ad": "OpenAI", "rss": "https://openai.com/news/rss.xml", "dil": "en" },
+    { "ad": "Google DeepMind", "rss": "https://deepmind.google/blog/rss.xml", "dil": "en" },
+    { "ad": "Google AI / Gemini", "rss": "https://blog.google/technology/ai/rss/", "dil": "en" },
+    { "ad": "Hugging Face", "rss": "https://huggingface.co/blog/feed.xml", "dil": "en" },
+    { "ad": "Webrazzi", "rss": "https://webrazzi.com/kategori/yapay-zeka/feed/", "dil": "tr" },
+    { "ad": "ShiftDelete.Net", "rss": "https://shiftdelete.net/yapay-zeka/feed", "dil": "tr" },
+    { "ad": "Webtekno", "rss": "https://www.webtekno.com/rss.xml", "dil": "tr",
+      "filtre": ["yapay zeka", "yapay zekâ", "ChatGPT", "OpenAI", "Gemini", "Claude", "Anthropic", "DeepSeek", "Copilot", "LLM", "dil modeli", "Grok", "Llama", "Mistral"] }
+  ]
+}

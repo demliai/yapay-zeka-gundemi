@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Video kanıtları depoya girmez
+kanit/
+# Video yapım notları depoya girmez
+YAPIM.md

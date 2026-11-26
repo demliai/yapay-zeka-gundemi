@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yapay Zekâ Gündemi</title>
+  <meta name="description" content="Yapay zekâ haberleri, kaynaklarından her 3 saatte bir kendiliğinden toplanır. Yalnız başlık ve bağlantı.">
+  <meta name="theme-color" content="#1E1712">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E1712'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23DC6C21'/%3E%3C/svg%3E">
+  <link rel="preload" href="fontlar/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fontlar/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <a class="atla" href="#liste">Haberlere geç</a>
+
+  <header class="ust">
+    <div class="kap">
+      <p class="kicker">yapay zekâ haberleri</p>
+      <h1>Yapay Zekâ Gündemi</h1>
+      <p class="alt">Laboratuvarların ve teknoloji sitelerinin son haberleri tek sayfada. Her 3 saatte bir kendiliğinden güncellenir.</p>
+      <p class="durum" id="durum" aria-live="polite">haberler yükleniyor…</p>
+    </div>
+  </header>
+
+  <nav class="filtre" aria-label="Kaynağa göre filtre">
+    <div class="kap">
+      <div class="cipler" id="cipler" role="toolbar"></div>
+    </div>
+  </nav>
+
+  <main class="kap" id="liste" tabindex="-1">
+    <noscript><p class="bos">Bu sayfa haberleri listelemek için JavaScript kullanır.</p></noscript>
+  </main>
+
+  <footer class="alt-bilgi">
+    <div class="kap">
+      <p>Haber metinleri kaynaklarına aittir; burada yalnız başlık, kısa özetin ilk cümlesi ve orijinal habere bağlantı yer alır.</p>
+      <p>Bu site <a id="sablon-baglanti" href="#">açık bir şablondan</a> kuruldu: GitHub Actions + GitHub Pages, ücretsiz, API anahtarı yok.</p>
+    </div>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>

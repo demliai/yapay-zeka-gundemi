@@ -1,0 +1,775 @@
+{
+ "guncellendi": "2026-11-26T19:49:25Z",
+ "kaynak_durumu": [
+  {
+   "kaynak": "Anthropic",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "OpenAI",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "Google DeepMind",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "Google AI / Gemini",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "Hugging Face",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "Webrazzi",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "ShiftDelete.Net",
+   "durum": "tamam",
+   "haber": 12
+  },
+  {
+   "kaynak": "Webtekno",
+   "durum": "tamam",
+   "haber": 7
+  }
+ ],
+ "haberler": [
+  {
+   "baslik": "Samsung, Galaxy AI için gizli bulut hazırlıyor",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T17:21:47Z",
+   "link": "https://shiftdelete.net/samsung-galaxy-ai-ozel-bulut-spac-one-ui-9-5",
+   "ozet": "One UI 9.5'in ilk betasının kodunda ortaya çıkan SPAC adlı yapı, Samsung'un Galaxy AI için kendi gizli bulutunu hazırladığını gösteriyor."
+  },
+  {
+   "baslik": "Fırat Üniversitesi'nde yapay zekâ hackathonu",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T15:47:32Z",
+   "link": "https://shiftdelete.net/firat-universitesi-biltag-hackathon-2026-egitim-esitliginde-yapay-zeka",
+   "ozet": "Fırat Üniversitesi bünyesindeki BİLTAG, \"Eğitim Eşitliğinde Yapay Zekâ\" temalı Hackathon 2026 için başvuruları açtı."
+  },
+  {
+   "baslik": "OpenClaw, yapay zeka ajanlarının gerçek görevlerdeki performansını ölçen ShellBench'i tanıttı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-26T14:00:00Z",
+   "link": "https://webrazzi.com/2026/11/26/openclaw-yapay-zeka-ajanlarinin-gercek-gorevlerdeki-performansini-olcen-shellbenchi-tanitti/",
+   "ozet": "OpenClaw, yapay zeka ajanlarının günlük hayattaki görevleri ne kadar başarılı tamamladığını ölçmek amacıyla geliştirdiği ShellBench adlı yeni performans testini tanıttı."
+  },
+  {
+   "baslik": "Kore'de Apple'a iPhone 16 reklamı için ceza yolu",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T13:49:27Z",
+   "link": "https://shiftdelete.net/apple-iphone-16-apple-intelligence-guney-kore-kftc-aldatici-reklam",
+   "ozet": "Kore Adil Ticaret Komisyonu soruşturmacıları, Apple'ın iPhone 16 reklamlarında Apple Intelligence özelliklerinin gecikeceğini gizlediğini söylüyor."
+  },
+  {
+   "baslik": "Resmî Olmayan GTA 6 PC Sürümleri Artık 20-30 FPS'de Çalışıyor [Video]",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-26T13:24:44Z",
+   "link": "https://www.webtekno.com/gta-6-pc-surumleri-artik-20-30-fps-calisiyor-video-h229504.html",
+   "ozet": "Yapay zekâ desteğiyle geliştirilen resmî olmayan GTA 6 PC derlemeleri 20-30 FPS'de çalıştırılabiliyor."
+  },
+  {
+   "baslik": "OpenAI, Küçük İşletmelere Ücretsiz Yapay Zekâ Danışmanlığı Sunan OpenWorks'ü Duyurdu",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-26T13:04:07Z",
+   "link": "https://www.webtekno.com/openai-openworks-duyurdu-h229486.html",
+   "ozet": "OpenAI, küçük işletmeleri yapay zekâ uzmanlarıyla ücretsiz buluşturan yeni pilot programı OpenWorks’ü hayata geçirdi."
+  },
+  {
+   "baslik": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-26T11:37:17Z",
+   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "ozet": ""
+  },
+  {
+   "baslik": "Amazon ve Meta, Muse'un alışveriş engelini kaldırmak için görüşüyor",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-26T11:00:00Z",
+   "link": "https://webrazzi.com/2026/11/26/amazon-ve-meta-museun-alisveris-engelini-kaldirmak-icin-gorusuyor/",
+   "ozet": "Amazon ve Meta, Meta'nın yapay zeka ajanı Muse'un Amazon üzerinden alışveriş yapabilmesini sağlayacak bir anlaşma için görüşmeler yürütüyor."
+  },
+  {
+   "baslik": "ChatGPT'de Astra sınırı %40 daha hızlı doluyor",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T09:49:04Z",
+   "link": "https://shiftdelete.net/chatgpt-gpt-6-2-astra-sol-limit-faturalama-hatasi",
+   "ozet": "OpenAI, GPT-6.2 Astra ve Sol kullanımını eksik sayan faturalama hatasını düzeltti."
+  },
+  {
+   "baslik": "Google, Gemini Notebook'un bilgi kartlarına görsel ve çalışma hatırlatıcıları ekliyor",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-26T09:00:00Z",
+   "link": "https://webrazzi.com/2026/11/26/google-gemini-notebookun-bilgi-kartlarina-gorsel-ve-calisma-hatirlaticilari-ekliyor/",
+   "ozet": "Google, yapay zeka destekli öğrenme aracı Gemini Notebook'un Flashcards özelliğine üç yeni özellik ekliyor."
+  },
+  {
+   "baslik": "OpenAI, ChatGPT'nin kullanım limitlerini birleştiriyor: Bazı aboneler sınırlara daha erken ulaşabilir",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-26T08:00:00Z",
+   "link": "https://webrazzi.com/2026/11/26/openai-chatgpt-nin-kullanim-limitlerini-birlestiriyor-bazi-aboneler-sinirlara-daha-erken-ulasabilir/",
+   "ozet": "OpenAI, ChatGPT'nin sohbet özelliği Chat ile daha kapsamlı görevlerin gerçekleştirildiği Work'ü tek bir deneyimde birleştirmeye başladı."
+  },
+  {
+   "baslik": "SpaceX, Uzaya 1 Milyon Uydu Göndermek İçin Onay Aldı",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-26T07:47:42Z",
+   "link": "https://www.webtekno.com/spacex-uzayi-1-milyon-uydu-onay-h229465.html",
+   "ozet": "ABD Federal İletişim Komisyonu (FCC), SpaceX'in uzaya yapay zekâ veri merkezleri kurma planı Starmind için 1 milyon uydu fırlatmasına onay verdi."
+  },
+  {
+   "baslik": "Nothing'in yapay zeka cihazı kulaklık çıktı",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T07:17:27Z",
+   "link": "https://shiftdelete.net/nothing-ear-note-yapay-zeka-kulaklik",
+   "ozet": "Nothing'in 8 Aralık'ta tanıtacağı yapay zeka cihazı Ear (note) adlı bir kulaklık."
+  },
+  {
+   "baslik": "OpenAI, küçük işletmelere ücretsiz uzman veriyor",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-26T06:46:22Z",
+   "link": "https://shiftdelete.net/openai-openworks-kucuk-isletme-yapay-zeka-uzmani",
+   "ozet": "OpenAI'ın OpenWorks programı, ABD'deki küçük işletmelere ücretsiz yapay zeka desteği veriyor."
+  },
+  {
+   "baslik": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-26T05:05:36Z",
+   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "ozet": ""
+  },
+  {
+   "baslik": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-26T00:00:00Z",
+   "link": "https://huggingface.co/blog/training-swarms",
+   "ozet": ""
+  },
+  {
+   "baslik": "Where scientists draw the line on AI agents",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-25T18:52:55Z",
+   "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "ozet": ""
+  },
+  {
+   "baslik": "Sağlık Verilerinizi Yorumlayabilen ChatGPT Health, Android'e Geldi",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-25T12:00:35Z",
+   "link": "https://www.webtekno.com/chatgpt-health-android-geldi-h229444.html",
+   "ozet": "OpenAI, ChatGPT Health özelliğini Android Health Connect desteğiyle genişleterek akıllı saat ve fitness verilerinizi sohbet diliyle analiz ediyor."
+  },
+  {
+   "baslik": "Turkcell Zekâ Gücü 100. sınıfını Bursa'da açtı",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-25T10:57:55Z",
+   "link": "https://shiftdelete.net/turkcell-zeka-gucu-100-teknoloji-sinifi-bursa-bilsem",
+   "ozet": "Turkcell'in Zekâ Gücü Projesi, 10."
+  },
+  {
+   "baslik": "Meta, yapay zeka asistanı Muse'u Instagram'ın mesajlaşma bölümüne entegre etti",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-25T10:30:00Z",
+   "link": "https://webrazzi.com/2026/11/25/meta-yapay-zeka-asistani-museu-instagramin-mesajlasma-bolumune-entegre-etti/",
+   "ozet": "Meta, kişisel yapay zeka asistanı Muse'un kullanım alanını genişletmeye devam ediyor."
+  },
+  {
+   "baslik": "An Indic Voice Agent with CUGA",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-25T10:22:09Z",
+   "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "ozet": ""
+  },
+  {
+   "baslik": "Meta'nın Yapay Zekâ Asistanı Muse, Instagram DM'lerine Geldi: Peki Neler Yapılabiliyor?",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-25T09:39:16Z",
+   "link": "https://www.webtekno.com/meta-muse-instagram-dm-geldi-h229426.html",
+   "ozet": "Meta, yapay zekâ asistanı Muse'u Instagram DM'lere entegre ederek gönderi analizi, içerik düzenleme ve akıllı planlama özelliklerini kullanıma sundu."
+  },
+  {
+   "baslik": "29 Milyon Şarkı Birden Siliniyor: Tidal Yapay Zekâ Müziğine Savaş Açtı!",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-25T09:39:08Z",
+   "link": "https://www.webtekno.com/tidal-yapay-zeka-muzik-yasak-karari-h229423.html",
+   "ozet": "Tidal, tamamı yapay zekâyla üretilen şarkıları artık kataloğunda istemiyor."
+  },
+  {
+   "baslik": "Tidal, tamamen yapay zeka üretimi müzikleri platformundan kaldırıyor",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-25T09:30:00Z",
+   "link": "https://webrazzi.com/2026/11/25/tidal-tamamen-yapay-zeka-uretimi-muzikleri-platformundan-kaldiriyor/",
+   "ozet": "Tidal, tamamen yapay zeka tarafından üretilen müzikleri platformundan kaldırmaya hazırlanıyor."
+  },
+  {
+   "baslik": "Anthropic, Claude ile oluşturulan araçları masaüstü uygulamasına dönüştürüyor",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-25T08:45:00Z",
+   "link": "https://webrazzi.com/2026/11/25/anthropic-claude-ile-olusturulan-araclari-masaustu-uygulamasina-donusturuyor/",
+   "ozet": "Yapay zeka şirketi Anthropic, Claude üzerinden oluşturulan araçları masaüstü uygulamalarına dönüştürmeyi sağlayan yeni özelliğini duyurdu."
+  },
+  {
+   "baslik": "Samsung, Galaxy S27 Ultra'nın Kamerasından Önemli Bir Özelliği Çıkaracak",
+   "kaynak": "Webtekno",
+   "dil": "tr",
+   "tarih": "2026-11-25T08:31:34Z",
+   "link": "https://www.webtekno.com/samsung-galaxy-s27-ultra-kamerasindan-onemli-bir-ozelligi-cikaracak-h229414.html",
+   "ozet": "Sızıntılara göre Samsung, maliyetleri düşürmek için Galaxy S27 Ultra'daki lazer odaklama donanımını kaldırıp yerine yapay zekâ kullanacak."
+  },
+  {
+   "baslik": "Turkcell, arızayı temsilciden önce bildiriyor",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-25T06:07:06Z",
+   "link": "https://shiftdelete.net/turkcell-geo-insight-mx-yapay-zeka-sebeke",
+   "ozet": "Turkcell, mühendislerinin geliştirdiği iki yapay zeka platformunu devreye aldı."
+  },
+  {
+   "baslik": "Dell'in geliri yapay zeka ile ikiye katlandı",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-25T05:30:08Z",
+   "link": "https://shiftdelete.net/dell-ucuncu-ceyrek-rekor-gelir-yapay-zeka-sunucu",
+   "ozet": "Dell Technologies, 2027 mali yılının üçüncü çeyreğinde yüzde 103 artışla 54,9 milyar dolar rekor gelir açıkladı."
+  },
+  {
+   "baslik": "Tidal yapay zeka şarkılarını tamamen siliyor",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-25T05:00:09Z",
+   "link": "https://shiftdelete.net/tidal-yapay-zeka-muzik-yasagi-9-aralik",
+   "ozet": "Tidal, 9 Aralık'tan itibaren tamamen yapay zeka ile üretilen şarkıları reddedip kataloğundan kaldıracak."
+  },
+  {
+   "baslik": "47 yıllık matematik problemine iki ayrı ispat",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-25T04:30:08Z",
+   "link": "https://shiftdelete.net/anthropic-openai-vp-vnp-ispat-47-yillik-problem",
+   "ozet": "Anthropic ve OpenAI, Leslie Valiant'ın 1979'da ortaya attığı VP ile VNP probleminin çözüldüğünü öne süren ve yapay zekanın ürettiği iki ayrı ispat yayımladı."
+  },
+  {
+   "baslik": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-25T00:00:00Z",
+   "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "ozet": ""
+  },
+  {
+   "baslik": "Canva MCP herkese açıldı: Bekleme listesi kalktı",
+   "kaynak": "ShiftDelete.Net",
+   "dil": "tr",
+   "tarih": "2026-11-24T19:07:07Z",
+   "link": "https://shiftdelete.net/canva-mcp-genel-kullanima-acildi-yapay-zeka-ajanlari",
+   "ozet": "Canva, yapay zeka ajanlarının tasarım araçlarını kullanmasını sağlayan Canva MCP altyapısını genel kullanıma açtı."
+  },
+  {
+   "baslik": "How Gemini is changing the game for Golden State's organization and fans.",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-24T16:00:00Z",
+   "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "ozet": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center."
+  },
+  {
+   "baslik": "Canva, yapay zeka ajanları için MCP altyapısını genel kullanıma açtı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-24T14:30:00Z",
+   "link": "https://webrazzi.com/2026/11/24/canva-yapay-zeka-ajanlari-icin-mcp-altyapisini-genel-kullanima-acti/",
+   "ozet": "Tasarım platformu Canva, yapay zeka ajanlarının ve geliştiricilerin şirketin tasarım araçlarından yararlanmasını sağlayan Canva MCP altyapısını genel kullanıma açtığını duyurdu."
+  },
+  {
+   "baslik": "Sierra, 30 milyar dolar değerleme üzerinden 1,75 milyar dolar yatırım aldı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-24T14:00:00Z",
+   "link": "https://webrazzi.com/2026/11/24/sierra-30-milyar-dolar-degerleme-uzerinden-1-75-milyar-dolar-yatirim-aldi/",
+   "ozet": "Yapay zeka ajanları geliştiren Sierra, 1,75 milyar dolar yatırım aldı."
+  },
+  {
+   "baslik": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-24T13:07:53Z",
+   "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "ozet": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra."
+  },
+  {
+   "baslik": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-24T13:00:00Z",
+   "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "ozet": "GPT-6 models design protein structures and sequences using reasoning and code."
+  },
+  {
+   "baslik": "Z.ai, yeni yapay zeka modeli GLM-5.4'ü tanıttı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-24T13:00:00Z",
+   "link": "https://webrazzi.com/2026/11/24/zai-yeni-yapay-zeka-modeli-glm-54u-tanitti/",
+   "ozet": "Çin merkezli yapay zeka şirketi Z.ai, yeni amiral gemisi yapay zeka modeli GLM-5.4'ü tanıttı."
+  },
+  {
+   "baslik": "Searching for distant planets with Astra",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-24T11:00:00Z",
+   "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "ozet": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes."
+  },
+  {
+   "baslik": "Yapay zeka altyapısı alanında faaliyet gösteren Marlowe, 277 milyon dolar yatırım aldı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-24T11:00:00Z",
+   "link": "https://webrazzi.com/2026/11/24/yapay-zeka-altyapisi-alaninda-faaliyet-gosteren-marlowe-277-milyon-dolar-yatirim-aldi/",
+   "ozet": ""
+  },
+  {
+   "baslik": "Anthropic, kod değişikliklerini inceleyip onaylayan Claude Ship'i tanıttı",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-24T09:00:00Z",
+   "link": "https://webrazzi.com/2026/11/24/anthropic-kod-degisikliklerini-inceleyip-onaylayan-claude-shipi-tanitti/",
+   "ozet": "Yapay zeka şirketi Anthropic, yazılım geliştirme süreçlerini hızlandırmayı hedefleyen yeni aracı Claude Ship'i tanıttı."
+  },
+  {
+   "baslik": "How Intentful uses dots to make more time for growth",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-24T00:00:00Z",
+   "link": "https://openai.com/business/customer-stories/intentful-dots",
+   "ozet": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues."
+  },
+  {
+   "baslik": "How iFood scales coding agents across 15,000 repositories",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-24T00:00:00Z",
+   "link": "https://openai.com/business/customer-stories/ifood",
+   "ozet": ""
+  },
+  {
+   "baslik": "Clay helps sales teams win with Codex and ChatGPT",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-24T00:00:00Z",
+   "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "ozet": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning."
+  },
+  {
+   "baslik": "OpenAI and Cisco introduce Shirudo",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-23T21:20:00Z",
+   "link": "https://openai.com/index/introducing-shirudo",
+   "ozet": ""
+  },
+  {
+   "baslik": "A more tailored Google Search that’s uniquely yours",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-23T17:00:00Z",
+   "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "ozet": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode."
+  },
+  {
+   "baslik": "Finding faster quantum algorithms with agents and formal verification",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-23T16:59:40Z",
+   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "ozet": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry."
+  },
+  {
+   "baslik": "Connected intelligence for in-house legal",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-23T08:00:00Z",
+   "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "ozet": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build…"
+  },
+  {
+   "baslik": "Richpanel helps companies automate 50% of support in 30 days",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-23T08:00:00Z",
+   "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "ozet": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations."
+  },
+  {
+   "baslik": "How to build and maintain an agentic evaluation",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-23T00:00:00Z",
+   "link": "https://huggingface.co/blog/agentic-evals",
+   "ozet": ""
+  },
+  {
+   "baslik": "Perplexity and Intelligence",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-22T00:00:00Z",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "ozet": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities."
+  },
+  {
+   "baslik": "Combatting adversarial distillation",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-20T10:00:00Z",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "ozet": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction."
+  },
+  {
+   "baslik": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-11-20T00:00:00Z",
+   "link": "https://www.anthropic.com/news/ipo-close",
+   "ozet": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00…"
+  },
+  {
+   "baslik": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-20T00:00:00Z",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "ozet": "Hebbia tested GPT-6 Astra for financial research."
+  },
+  {
+   "baslik": "Can AI help scientists identify promising drug candidates?",
+   "kaynak": "OpenAI",
+   "dil": "en",
+   "tarih": "2026-11-20T00:00:00Z",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "ozet": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery."
+  },
+  {
+   "baslik": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-20T00:00:00Z",
+   "link": "https://huggingface.co/blog/inkling2mini",
+   "ozet": ""
+  },
+  {
+   "baslik": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-20T00:00:00Z",
+   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "ozet": ""
+  },
+  {
+   "baslik": "Introducing Tool Retrieval in the Gemini API",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-19T18:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "ozet": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API."
+  },
+  {
+   "baslik": "Walter Isaacson on curiosity and creativity in the AI age.",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-19T17:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+   "ozet": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age."
+  },
+  {
+   "baslik": "Introducing Gemini 4 Neon",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-18T21:35:43Z",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "ozet": ""
+  },
+  {
+   "baslik": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-18T19:54:56Z",
+   "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "ozet": ""
+  },
+  {
+   "baslik": "Why your fine-tuning job takes longer than the FLOPs say",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-18T18:53:43Z",
+   "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "ozet": ""
+  },
+  {
+   "baslik": "Genie 4 is now available",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-18T18:13:42Z",
+   "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "ozet": ""
+  },
+  {
+   "baslik": "The Gemini app is now available on lower-memory Android devices.",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-18T17:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "ozet": "The Google Gemini app now supports lower-memory Android devices."
+  },
+  {
+   "baslik": "Anthropic prices initial public offering",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-11-18T00:00:00Z",
+   "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "ozet": ""
+  },
+  {
+   "baslik": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "kaynak": "Hugging Face",
+   "dil": "en",
+   "tarih": "2026-11-18T00:00:00Z",
+   "link": "https://huggingface.co/blog/moe-expert-streaming",
+   "ozet": ""
+  },
+  {
+   "baslik": "Put Gemini to work for you",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-17T17:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+   "ozet": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S."
+  },
+  {
+   "baslik": "New Ask Maps features to help with holiday travel and prep",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-16T14:00:00Z",
+   "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "ozet": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features."
+  },
+  {
+   "baslik": "Introducing Gemini 4 Hydrogen",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-12T18:00:50Z",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "ozet": ""
+  },
+  {
+   "baslik": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-12T18:00:00Z",
+   "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "ozet": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses."
+  },
+  {
+   "baslik": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-11T18:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "ozet": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+  },
+  {
+   "baslik": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-11T16:00:00Z",
+   "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+   "ozet": "Tabletop is a new Google Labs experiment for group collaboration."
+  },
+  {
+   "baslik": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-11T15:00:15Z",
+   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "ozet": "Predicting how DNA sequences and their variations impact specific human cell types and disease."
+  },
+  {
+   "baslik": "Experience the art and legacy of Dr. Esther Mahlangu",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-11T09:00:00Z",
+   "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+   "ozet": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture."
+  },
+  {
+   "baslik": "Gemini Intelligence: New features, on more devices",
+   "kaynak": "Google AI / Gemini",
+   "dil": "en",
+   "tarih": "2026-11-10T19:00:00Z",
+   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "ozet": "Gemini Intelligence is rolling out to more devices."
+  },
+  {
+   "baslik": "Gemini 4 Carbon is now available",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-10T16:03:47Z",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "ozet": ""
+  },
+  {
+   "baslik": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-10T12:02:28Z",
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "ozet": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption."
+  },
+  {
+   "baslik": "Opening the datasets behind our AI weather models",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-10T11:13:04Z",
+   "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "ozet": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly."
+  },
+  {
+   "baslik": "Anthropic launches roadshow for proposed initial public offering",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-11-10T00:00:00Z",
+   "link": "https://www.anthropic.com/news/roadshow-launch",
+   "ozet": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
+  },
+  {
+   "baslik": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-09T19:51:47Z",
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "ozet": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety"
+  },
+  {
+   "baslik": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-11-09T00:00:00Z",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "ozet": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences."
+  },
+  {
+   "baslik": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-05T17:05:16Z",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "ozet": ""
+  },
+  {
+   "baslik": "Agentic cheminformatics with Google Antigravity",
+   "kaynak": "Google DeepMind",
+   "dil": "en",
+   "tarih": "2026-11-03T17:01:49Z",
+   "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+   "ozet": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles."
+  },
+  {
+   "baslik": "AI for Science expands to foundations and research institutions",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-28T00:00:00Z",
+   "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "ozet": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program."
+  },
+  {
+   "baslik": "Early progress on accelerating drug development with Claude",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-27T00:00:00Z",
+   "link": "https://www.anthropic.com/research/early-progress-drug-development",
+   "ozet": "We're at the start of a major effort to speed up drug development with Claude."
+  },
+  {
+   "baslik": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-27T00:00:00Z",
+   "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "ozet": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude…"
+  },
+  {
+   "baslik": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-26T00:00:00Z",
+   "link": "https://www.anthropic.com/news/s1-sec",
+   "ozet": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S."
+  },
+  {
+   "baslik": "Open call for guest investigators in the life sciences",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-22T00:00:00Z",
+   "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "ozet": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects."
+  },
+  {
+   "baslik": "Donating Agent Skills to the Agentic AI Foundation",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-22T00:00:00Z",
+   "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "ozet": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation."
+  },
+  {
+   "baslik": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-21T00:00:00Z",
+   "link": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "ozet": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust."
+  },
+  {
+   "baslik": "Investing in the public benefit",
+   "kaynak": "Anthropic",
+   "dil": "en",
+   "tarih": "2026-10-18T00:00:00Z",
+   "link": "https://www.anthropic.com/news/public-benefit-fund",
+   "ozet": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
+  }
+ ]
+}
