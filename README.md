@@ -3,7 +3,7 @@
 Yapay zekâ haberlerini (Anthropic, OpenAI, Google DeepMind, Google AI / Gemini, Hugging Face, Webrazzi, ShiftDelete.Net, Webtekno) **her 3 saatte bir kendiliğinden** toplayan, tek sayfalık bir site.
 Sunucu yok, API anahtarı yok, ücret yok: GitHub Actions haberleri çeker, GitHub Pages siteyi yayınlar.
 
-Canlı örnek: `https://<kullanici-adin>.github.io/<depo-adin>/`
+Canlı örnek: https://demliai.github.io/yapay-zeka-gundemi/
 
 ---
 
