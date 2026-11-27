@@ -39,7 +39,7 @@ kaynaklar.json ──► betik/guncelle.py ──► haberler.json ──► ind
 | Dosya | Ne işe yarar |
 |---|---|
 | `kaynaklar.json` | Haber kaynaklarının listesi. Kaynak eklemek/çıkarmak için yalnız bunu düzenle. |
-| `betik/guncelle.py` | RSS/Atom akışlarını okur, `haberler.json` üretir. Yalnız Python standart kütüphanesi; kurulacak paket yok. |
+| `betik/guncelle.py` | RSS/Atom akışlarını okur, haber görselini (RSS medya etiketi ya da haber sayfasının paylaşım görseli) bulur, `haberler.json` üretir. Yalnız Python standart kütüphanesi; kurulacak paket yok. |
 | `haberler.json` | Sitenin okuduğu veri. Elle düzenleme; betik üretir. |
 | `.github/workflows/guncelle.yml` | Zamanlayıcı: her 3 saatte bir betiği çalıştırır, değişiklik varsa commit'ler ve siteyi yayınlar. |
 | `index.html`, `stil.css`, `site.js` | Sitenin kendisi. Derleme adımı yok. |
@@ -51,6 +51,7 @@ kaynaklar.json ──► betik/guncelle.py ──► haberler.json ──► ind
 - **Sıklık:** `.github/workflows/guncelle.yml` içindeki `cron: "17 */3 * * *"` satırı. `*/3` yerine `*/6` yazarsan 6 saatte bir olur. Saatler UTC'dir.
 - **Başlık ve açıklama:** `index.html` içindeki `<h1>` ve `.alt` paragrafı.
 - **Renkler:** `stil.css` en üstteki `:root` bloğu.
+- **Görseller:** `assets/demli/` altındaki Demli maskotu ve gece sahnesi MIT lisansına dahil değil. Kendi sitende `index.html` içindeki `assets/demli/...` yollarını kendi görsellerine çevir (ya da o `<img>` satırlarını sil). Haber görselleri kaynakların kendi paylaşım görselleridir; site onları indirmez, yalnız bağlantı verir.
 - **Özel alan adı kullanıyorsan:** `site.js` başındaki `SABLON_DEPO` değişkenine depo adresini yaz (alt bilgideki "açık bir şablondan" bağlantısı için). `github.io` adresinde buna gerek yok, kendiliğinden bulunur.
 
 Değişikliği GitHub'ın web arayüzünden yapıp commit'lemen yeterli; site birkaç dakika içinde yeniden yayınlanır.

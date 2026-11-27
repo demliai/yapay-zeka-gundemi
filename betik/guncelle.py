@@ -4,6 +4,8 @@
 Yalnız Python standart kütüphanesi kullanır; kurulum gerekmez.
 Telif için: haber metni kopyalanmaz. Yalnız başlık, kaynak, tarih, bağlantı
 ve (varsa) RSS özetinin ilk cümlesi (en çok 180 karakter) alınır.
+Görsel: kaynağın kendi paylaşım görseli (RSS medya etiketi ya da haber sayfasının og:image
+adresi); görsel indirilmez, yalnız adresi saklanır.
 
 Kullanım:
     python betik/guncelle.py            # haberler.json'u güncelle
@@ -32,6 +34,9 @@ TARAYICI_KIMLIGI = "Mozilla/5.0 (compatible; haber-sitesi-sablonu/1.0; +https://
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 DC = "{http://purl.org/dc/elements/1.1/}"
+MEDIA = "{http://search.yahoo.com/mrss/}"
+OG_EN_FAZLA = 40      # bir çalıştırmada görsel için en çok kaç haber sayfası açılır
+OG_ZAMAN_ASIMI = 10
 
 
 def indir(adres: str, deneme: int = 2) -> bytes:
@@ -107,6 +112,41 @@ def guvenli_baglanti(adres: str) -> str:
     return adres if re.match(r"^https?://", adres, re.I) else ""
 
 
+def gorsel_bul(o) -> str:
+    """RSS/Atom kaydından görsel adresi: media:content/thumbnail, enclosure, ya da açıklamadaki ilk <img>."""
+    for etiket in (f"{MEDIA}content", f"{MEDIA}thumbnail"):
+        for m in o.iter(etiket):
+            adres = m.get("url", "")
+            tur = m.get("type", "") or m.get("medium", "")
+            if adres and (not tur or "image" in tur):
+                return adres
+    for e in o.findall("enclosure"):
+        if "image" in e.get("type", "") and e.get("url"):
+            return e.get("url")
+    for alan in ("description", f"{ATOM}summary", f"{ATOM}content",
+                 "{http://purl.org/rss/1.0/modules/content/}encoded"):
+        bul = re.search(r"<img[^>]+src=[\"']([^\"']+)", html.unescape(metin(o.find(alan))))
+        if bul:
+            return bul.group(1)
+    return ""
+
+
+def og_gorsel(adres: str) -> str:
+    """Haber sayfasının <head>'indeki og:image / twitter:image adresi (sayfanın yalnız ilk 200 KB'ı okunur)."""
+    istek = urllib.request.Request(adres, headers={"User-Agent": TARAYICI_KIMLIGI, "Accept": "text/html"})
+    with urllib.request.urlopen(istek, timeout=OG_ZAMAN_ASIMI) as yanit:
+        ham = yanit.read(200_000)
+    if ham[:2] == b"\x1f\x8b":
+        ham = gzip.decompress(ham)
+    sayfa = ham.decode("utf-8", "replace")
+    for desen in (r"<meta[^>]+(?:property|name)=[\"'](?:og:image|twitter:image)[\"'][^>]*content=[\"']([^\"']+)",
+                  r"<meta[^>]+content=[\"']([^\"']+)[\"'][^>]*(?:property|name)=[\"'](?:og:image|twitter:image)[\"']"):
+        bul = re.search(desen, sayfa, re.I)
+        if bul:
+            return html.unescape(bul.group(1))
+    return ""
+
+
 def akisi_coz(veri: bytes):
     kok = ET.fromstring(veri.lstrip(b"\xef\xbb\xbf \r\n\t"))
     kayitlar = []
@@ -122,6 +162,7 @@ def akisi_coz(veri: bytes):
                 "link": link,
                 "tarih": metin(g.find(f"{ATOM}published")) or metin(g.find(f"{ATOM}updated")),
                 "ozet": metin(g.find(f"{ATOM}summary")),
+                "gorsel": gorsel_bul(g),
             })
     else:
         kanal = kok.find("channel")
@@ -133,6 +174,7 @@ def akisi_coz(veri: bytes):
                 "tarih": metin(o.find("pubDate")) or metin(o.find(f"{DC}date")),
                 # content:encoded (tam metin) bilerek okunmaz; yalnız kısa açıklama.
                 "ozet": metin(o.find("description")),
+                "gorsel": gorsel_bul(o),
             })
     return kayitlar
 
@@ -168,6 +210,7 @@ def kaynagi_isle(k: dict, sinir: int):
             "tarih": tarih.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "link": link,
             "ozet": ozet,
+            "gorsel": guvenli_baglanti(r.get("gorsel", "")).replace("http://", "https://", 1),
         })
     haberler.sort(key=lambda h: h["tarih"], reverse=True)
     return haberler[:sinir], len(kayitlar), tarihsiz
@@ -219,6 +262,25 @@ def main() -> int:
         gorulen.add(anahtar)
         benzersiz.append(h)
     benzersiz = benzersiz[:toplam_sinir]
+
+    # Görseli olmayan haberler: önce eski dosyadaki görsel, yoksa haber sayfasının og:image'i (sınırlı sayıda).
+    eski_gorsel = {h["link"]: h.get("gorsel", "") for h in eski_haberler if h.get("gorsel")}
+    acilan = 0
+    for h in benzersiz:
+        if h.get("gorsel"):
+            continue
+        if h["link"] in eski_gorsel:
+            h["gorsel"] = eski_gorsel[h["link"]]
+            continue
+        if acilan >= OG_EN_FAZLA:
+            continue
+        acilan += 1
+        try:
+            h["gorsel"] = guvenli_baglanti(og_gorsel(h["link"])).replace("http://", "https://", 1)
+        except Exception:
+            h["gorsel"] = ""
+    gorselli = sum(1 for h in benzersiz if h.get("gorsel"))
+    print(f"Görsel: {gorselli}/{len(benzersiz)} haberde ({acilan} sayfa açıldı).")
 
     if benzersiz == eski_haberler:
         print("Yeni haber yok; dosya olduğu gibi bırakıldı (commit gerekmez).")

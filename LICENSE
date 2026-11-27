@@ -25,3 +25,9 @@ Yazı tipleri (fontlar/ klasörü) bu lisansın kapsamında değildir:
 Bricolage Grotesque, Inter ve JetBrains Mono, SIL Open Font License 1.1 ile
 dağıtılır (https://openfontlicense.org).
 Haber başlıkları ve özetleri kaynak sitelerine aittir.
+
+---
+
+The Demli mascot and scene images in `assets/demli/` are NOT covered by this license.
+All rights reserved by Demli. Replace them with your own images when you use this template.
+(`assets/demli/` altındaki Demli maskotu ve sahne görselleri bu lisansın kapsamında değildir; şablonu kullanırken kendi görsellerinle değiştir.)
