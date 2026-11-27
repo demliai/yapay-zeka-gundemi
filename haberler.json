@@ -1,5 +1,5 @@
 {
- "guncellendi": "2026-11-26T19:49:25Z",
+ "guncellendi": "2026-11-27T08:35:14Z",
  "kaynak_durumu": [
   {
    "kaynak": "Anthropic",
@@ -33,8 +33,8 @@
   },
   {
    "kaynak": "ShiftDelete.Net",
-   "durum": "tamam",
-   "haber": 12
+   "durum": "hata",
+   "hata": "HTTPError"
   },
   {
    "kaynak": "Webtekno",
@@ -43,6 +43,14 @@
   }
  ],
  "haberler": [
+  {
+   "baslik": "Nvidia, Güneydoğu Asya'daki dört ülkeye yapay zeka sunucusu göndermeyi durdurdu",
+   "kaynak": "Webrazzi",
+   "dil": "tr",
+   "tarih": "2026-11-27T08:00:00Z",
+   "link": "https://webrazzi.com/2026/11/27/nvidia-guneydogu-asya-daki-dort-ulkeye-yapay-zeka-sunucusu-gondermeyi-durdurdu/",
+   "ozet": "Yapay zeka çipi üreticisi Nvidia, ABD'nin Çin'e yönelik teknoloji kısıtlamalarını sıkılaştırmasının ardından dört Güneydoğu Asya ülkesine sunucu sevkiyatlarını durdurma kararı…"
+  },
   {
    "baslik": "Samsung, Galaxy AI için gizli bulut hazırlıyor",
    "kaynak": "ShiftDelete.Net",
@@ -362,14 +370,6 @@
    "tarih": "2026-11-24T11:00:00Z",
    "link": "https://webrazzi.com/2026/11/24/yapay-zeka-altyapisi-alaninda-faaliyet-gosteren-marlowe-277-milyon-dolar-yatirim-aldi/",
    "ozet": ""
-  },
-  {
-   "baslik": "Anthropic, kod değişikliklerini inceleyip onaylayan Claude Ship'i tanıttı",
-   "kaynak": "Webrazzi",
-   "dil": "tr",
-   "tarih": "2026-11-24T09:00:00Z",
-   "link": "https://webrazzi.com/2026/11/24/anthropic-kod-degisikliklerini-inceleyip-onaylayan-claude-shipi-tanitti/",
-   "ozet": "Yapay zeka şirketi Anthropic, yazılım geliştirme süreçlerini hızlandırmayı hedefleyen yeni aracı Claude Ship'i tanıttı."
   },
   {
    "baslik": "How Intentful uses dots to make more time for growth",
